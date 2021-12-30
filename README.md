@@ -1,42 +1,38 @@
-# NewcordRevived [![Download][download-badge]][download-link] [![Support][support-badge]][support-link]
+```
+/**
+* @name NewcordRevived
+* @version 1.0.0
+* @author ₊˚ʚ 𝑘𝑎𝑖𝑑𝑜ˊ˗, Revived by SquirrelKiev.
+* @description A revival of a colorful theme inspired by the first page of Discord's website. Note that this isn't the most up-to-date version of Newcord, rather the only copy of the repo I could find. 
+* @updateUrl https://squirrelkiev.github.io/NewcordRevived/src/newcord.theme.css
+* @source https://github.com/SquirrelKiev/NewcordRevived
+**/
 
-[download-badge]: https://raw.githubusercontent.com/SquirrelKiev/NewcordRevived/main/icons/github/download.svg
-[support-badge]: https://raw.githubusercontent.com/SquirrelKiev/NewcordRevived/main/icons/github/support.svg
-[download-link]: https://raw.githubusercontent.com/SquirrelKiev/NewcordRevived/main/src/newcord.theme.css
-[support-link]: https://github.com/SquirrelKiev/NewcordRevived/issues
+@import url(https://squirrelkiev.github.io/NewcordRevived/src/main.css);
 
-A revival of a colorful and customizable BetterDiscord theme inspired by the first page of Discord's website.
+/* ------------------------------ 🌷 ADD A "/*" BEFORE THE LINK OF THE STUFF THAT YOU DON'T WANT TO USE ------------------------------ */
 
-![Banner](https://i.imgur.com/wETAyVA.png)
+/* Colorize Discord's boring SVGs */
+@import url(https://nyri4.github.io/Discolored/main.css);
 
-## Installation guide
+/* Change the images of the friends tabs ("Online", "All", "Pending", "Blocked" and "Add a friend") */
+@import url(https://squirrelkiev.github.io/NewcordRevived/src/stuff/assets.css);
 
-To download the theme, go on this [page][download-link], right-click, click "save as" and save it in your BetterDiscord themes folder.
+/* Add icons on the personal and server settings */
+@import url(https://squirrelkiev.github.io/NewcordRevived/src/stuff/icons.css);
 
-If you need a more detailed guide here's one for Windows and one for macOS:
+/* To center the Discord window and add it a background */
+@import url(https://squirrelkiev.github.io/NewcordRevived/src/stuff/paddingWindow.css);
 
--   [Windows](https://github.com/SquirrelKiev/NewcordRevived/blob/main/guides/windows.md)
--   [macOS](https://github.com/SquirrelKiev/NewcordRevived/blob/main/guides/macOS.md)
+/* ------------------------------ 🌱 THE FOLLOWING STUFF SHOULDN'T BE REMOVE IF YOU DON'T WANT TO HAVE ANY PROBLEM WITH THE THEME ------------------------------ */
 
-## Customization guide
+/* You can change the color of many things like the status, Windows buttons (if you use the padding Window) and more ...
+by choosing among the following proposals:
+    → basic
+    → pastel
+    → soft
+Test them all to see witch colors are the best for you ! :D
 
-Coming soon, sorry . . .
-
-![Calendar](https://raw.githubusercontent.com/SquirrelKiev/NewcordRevived/main/icons/github/calendar.svg) It should come around September 2021.
-
-## Features to come
-
--   A plugin to customize the theme directly in Discord's appearance settings.
--   The possibility to customize the background when the windows padding is activated.
-
-## Preview
-
-##### Home
-
-![Screenshot1](https://i.imgur.com/YDMGVNL.png)
-
-##### Settings
-
-![Screenshot2](https://i.imgur.com/bYrxbPt.png)
-
-#### **Made with ![Love](https://raw.githubusercontent.com/SquirrelKiev/NewcordRevived/main/icons/github/heart.svg) by [Kaido](https://github.com/kaiidoo)**
+/*												  Replace this ↓↓↓↓↓			*/
+@import url(https://squirrelkiev.github.io/NewcordRevived/src/stuff/colors/basic.colors.css);
+```
